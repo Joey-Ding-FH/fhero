@@ -1,4 +1,4 @@
-formhero.setFormHeroHost('formhero.cloud');
+formhero.setFormHeroHost('formhero.at');
 formhero.useHttps(true);
 function launchForm(clickEvent)
 {
