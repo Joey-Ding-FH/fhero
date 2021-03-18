@@ -3,11 +3,11 @@ var app = express();
 var path = require('path');
 
 app.use(express.static(__dirname + '/public'));
-// viewed at http://localhost:8080
+const port = process.env.PORT || 8080
 app.get('/', function(req, res) {
     res.sendFile(path.join(__dirname + '/index.html'));
 });
 
-app.listen(8080,()=>{
+app.listen(port,()=>{
     console.log("listen to port 8080")
 });
