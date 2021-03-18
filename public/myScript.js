@@ -4,8 +4,8 @@ function launchForm(clickEvent)
 {
     formhero.loadForm({
         form:"suntrust-j",
-        organization: "fh-interview-candidates",
-        team: "demo",
+        organization: "demo",
+        team: "fh-interview-candidates",
         onCloseFn: function() { console.log("The user closed the modal!"); },
         onStatusFn: function(status) { console.log("Form State: ", status); }
     }, {
